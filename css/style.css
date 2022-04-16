@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background: url(/img/pexels-fauxels-3183165.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.form-head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    background: rgba(80, 10, 160, 0.5) no-repeat center center fixed;
+    background-size: cover; 
+    height: 100vh;
+    
+}
